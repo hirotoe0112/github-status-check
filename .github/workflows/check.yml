@@ -11,11 +11,11 @@ jobs:
 
     steps:
       - name: something test1
-        run: echo "something test1"
+        run: exit 1
 
   check2:
     runs-on: ubuntu-latest
 
     steps:
       - name: something test2
-        run: echo "something test2"
+        run: exit 0
